@@ -29,7 +29,7 @@ This project was built using [Spring Boot](http://spring.io) using Maven
  There is a test controller (`GreetingController`) that serves as an example on how to create a new controller and how the different paths work.
  <br>
  <br>
- ##Endpoints rules:
+ ## Endpoints rules:
  When you create an endpoint you must respect REST conventions. This means that, if you have an endpoint that manages the CRUD of a Car class then the controller name will be CarController (singular). If you need an enpoint that returns all cars then the Endpoint will be CarsController.
  <br><br>
  The example controller (`GreetingController`) was made with this conventions in mind.
